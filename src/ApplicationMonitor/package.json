@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "name": "ngcorecontacts",
+  "scripts": {
+    "postinstall": "typings install",
+    "typings": "typings"
+  },
+  "dependencies": {
+    "bootstrap": "3.3.5",
+    "jquery": "2.1.4",
+    "jquery-validation": "1.14.0",
+    "jquery-validation-unobtrusive": "3.2.6",
+    "angular": "1.5.7",
+    "angular-route": "1.5.7"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10", 
+    "gulp": "^3.9.1",
+    "path": "^0.12.7",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-typescript": "^2.13.6",
+    "typings": "^1.3.1",
+    "gulp-tsc": "^1.2.0"
+  }
+}

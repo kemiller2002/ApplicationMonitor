@@ -1,0 +1,1 @@
+﻿create nonclustered index IX_MiniProfilerSqlTimings_MiniProfilerId on MiniProfilerSqlTimings (MiniProfilerId)

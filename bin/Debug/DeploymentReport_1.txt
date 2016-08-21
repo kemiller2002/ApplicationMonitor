@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[MiniProfilerClientTimings] (Table)
+       [dbo].[MiniProfilerClientTimings].[IX_MiniProfilerClientTimings_MiniProfilerId] (Index)
+       [dbo].[MiniProfilers] (Table)
+       [dbo].[MiniProfilers].[IX_MiniProfilers_User_HasUserViewed_Includes] (Index)
+       [dbo].[MiniProfilerSqlTimingParameters] (Table)
+       [dbo].[MiniProfilerSqlTimingParameters].[IX_MiniProfilerSqlTimingParameters_MiniProfilerId] (Index)
+       [dbo].[MiniProfilerSqlTimings] (Table)
+       [dbo].[MiniProfilerSqlTimings].[IX_MiniProfilerSqlTimings_MiniProfilerId] (Index)
+       [dbo].[MiniProfilerTimings] (Table)
+       [dbo].[MiniProfilerTimings].[IX_MiniProfilerTimings_MiniProfilerId] (Index)
+
+** Supporting actions
