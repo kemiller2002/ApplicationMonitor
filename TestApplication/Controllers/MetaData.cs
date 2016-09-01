@@ -15,6 +15,7 @@ namespace TestApplication.Controllers
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
+
         }
 
 
@@ -32,5 +33,7 @@ namespace TestApplication.Controllers
         public void Delete(int id)
         {
         }
+
+
     }
 }

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/",
-    "signature": "5d9c261f9b65863d3df1fd85b0ae01bb7223408e"
+    "signature": "9bbd224ec155f98da05b8046e7d9a8abd69053e4"
   },
   "compilationOptions": {
     "defines": [
@@ -28,12 +28,19 @@
           "Microsoft.Extensions.Logging.Debug": "1.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
           "System.Data.SqlClient": "4.1.0",
-          "Microsoft.AspNetCore.StaticFiles": "1.0.0"
+          "Microsoft.AspNetCore.StaticFiles": "1.0.0",
+          "angularjs.TypeScript.DefinitelyTyped": "6.4.0"
         },
         "compile": {
           "ApplicationMonitor.dll": {}
         }
       },
+      "angularjs.TypeScript.DefinitelyTyped/6.4.0": {
+        "dependencies": {
+          "jquery.TypeScript.DefinitelyTyped": "0.0.1"
+        }
+      },
+      "jquery.TypeScript.DefinitelyTyped/0.0.1": {},
       "Libuv/1.9.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1"
@@ -2634,12 +2641,19 @@
           "Microsoft.Extensions.Logging.Debug": "1.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
           "System.Data.SqlClient": "4.1.0",
-          "Microsoft.AspNetCore.StaticFiles": "1.0.0"
+          "Microsoft.AspNetCore.StaticFiles": "1.0.0",
+          "angularjs.TypeScript.DefinitelyTyped": "6.4.0"
         },
         "runtime": {
           "ApplicationMonitor.dll": {}
         }
       },
+      "angularjs.TypeScript.DefinitelyTyped/6.4.0": {
+        "dependencies": {
+          "jquery.TypeScript.DefinitelyTyped": "0.0.1"
+        }
+      },
+      "jquery.TypeScript.DefinitelyTyped/0.0.1": {},
       "Libuv/1.9.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1"
@@ -5111,6 +5125,16 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "angularjs.TypeScript.DefinitelyTyped/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zCqBPujN65O15FZLWdPN5p08RFDhd91DT8TxeQ1+KTYuUTJy/PfEVrMGkdbu/kuZ0Ib8Y4ISThG8OwVn+oQDJw=="
+    },
+    "jquery.TypeScript.DefinitelyTyped/0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y1nzrEozBZdYr6C2Re7CxqHtFXszWYCbxQepl6ZgVzGy0hSM9t51pzXPdmyL2TuLnwhs8CdqTGpQNneWdY2DjA=="
     },
     "Libuv/1.9.0": {
       "type": "package",

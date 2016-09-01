@@ -23,3 +23,8 @@ K:\ApplicationMonitor\obj\Debug\Model.xml
 K:\ApplicationMonitor\obj\Debug\refactor.xml
 K:\ApplicationMonitor\obj\Debug\postdeploy.sql
 K:\ApplicationMonitor\obj\Debug\predeploy.sql
+C:\Repos\ApplicationMonitor\ApplicationMonitor\bin\Debug\ApplicationMonitor.dacpac
+C:\Repos\ApplicationMonitor\ApplicationMonitor\bin\Debug\ApplicationMonitor.dll
+C:\Repos\ApplicationMonitor\ApplicationMonitor\bin\Debug\ApplicationMonitor.pdb
+C:\Repos\ApplicationMonitor\ApplicationMonitor\obj\Debug\ApplicationMonitor.dll
+C:\Repos\ApplicationMonitor\ApplicationMonitor\obj\Debug\ApplicationMonitor.pdb

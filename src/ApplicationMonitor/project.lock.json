@@ -3,6 +3,15 @@
   "version": 2,
   "targets": {
     ".NETCoreApp,Version=v1.0": {
+      "angularjs.TypeScript.DefinitelyTyped/6.4.0": {
+        "type": "package",
+        "dependencies": {
+          "jquery.TypeScript.DefinitelyTyped": "(, )"
+        }
+      },
+      "jquery.TypeScript.DefinitelyTyped/0.0.1": {
+        "type": "package"
+      },
       "Libuv/1.9.0": {
         "type": "package",
         "dependencies": {
@@ -3581,6 +3590,33 @@
     }
   },
   "libraries": {
+    "angularjs.TypeScript.DefinitelyTyped/6.4.0": {
+      "sha512": "zCqBPujN65O15FZLWdPN5p08RFDhd91DT8TxeQ1+KTYuUTJy/PfEVrMGkdbu/kuZ0Ib8Y4ISThG8OwVn+oQDJw==",
+      "type": "package",
+      "path": "angularjs.TypeScript.DefinitelyTyped/6.4.0",
+      "files": [
+        "Content/Scripts/typings/angularjs/angular-animate.d.ts",
+        "Content/Scripts/typings/angularjs/angular-component-router.d.ts",
+        "Content/Scripts/typings/angularjs/angular-cookies.d.ts",
+        "Content/Scripts/typings/angularjs/angular-mocks.d.ts",
+        "Content/Scripts/typings/angularjs/angular-resource.d.ts",
+        "Content/Scripts/typings/angularjs/angular-route.d.ts",
+        "Content/Scripts/typings/angularjs/angular-sanitize.d.ts",
+        "Content/Scripts/typings/angularjs/angular.d.ts",
+        "angularjs.TypeScript.DefinitelyTyped.6.4.0.nupkg.sha512",
+        "angularjs.TypeScript.DefinitelyTyped.nuspec"
+      ]
+    },
+    "jquery.TypeScript.DefinitelyTyped/0.0.1": {
+      "sha512": "Y1nzrEozBZdYr6C2Re7CxqHtFXszWYCbxQepl6ZgVzGy0hSM9t51pzXPdmyL2TuLnwhs8CdqTGpQNneWdY2DjA==",
+      "type": "package",
+      "path": "jquery.TypeScript.DefinitelyTyped/0.0.1",
+      "files": [
+        "Content/Scripts/typings/jquery/jquery.d.ts",
+        "jquery.TypeScript.DefinitelyTyped.0.0.1.nupkg.sha512",
+        "jquery.TypeScript.DefinitelyTyped.nuspec"
+      ]
+    },
     "Libuv/1.9.0": {
       "sha512": "9Q7AaqtQhS8JDSIvRBt6ODSLWDBI4c8YxNxyCQemWebBFUtBbc6M5Vi5Gz1ZyIUlTW3rZK9bIr5gnVyv0z7a2Q==",
       "type": "package",
@@ -9557,7 +9593,8 @@
       "Microsoft.Extensions.Logging.Debug >= 1.0.0",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 1.0.0",
       "Microsoft.NETCore.App >= 1.0.0",
-      "System.Data.SqlClient >= 4.1.0"
+      "System.Data.SqlClient >= 4.1.0",
+      "angularjs.TypeScript.DefinitelyTyped >= 6.4.0"
     ],
     ".NETCoreApp,Version=v1.0": []
   },
